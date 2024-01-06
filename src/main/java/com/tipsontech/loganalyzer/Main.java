@@ -1,6 +1,6 @@
-package com.tipsontech.demo;
+package com.tipsontech.loganalyzer;
 
-import com.tipsontech.demo.utils.LogAnalyzerUtils;
+import com.tipsontech.loganalyzer.utils.LogAnalyzerUtils;
 
 public class Main {
 

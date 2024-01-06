@@ -1,4 +1,4 @@
-package com.tipsontech.demo.entity;
+package com.tipsontech.loganalyzer.entity;
 
 public class ErrorLogEntry extends LogEntry {
 	private final String stackTrace;

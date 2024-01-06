@@ -1,4 +1,4 @@
-package com.tipsontech.demo.utils;
+package com.tipsontech.loganalyzer.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.tipsontech.demo.entity.ErrorLogEntry;
-import com.tipsontech.demo.entity.LogEntry;
+import com.tipsontech.loganalyzer.entity.ErrorLogEntry;
+import com.tipsontech.loganalyzer.entity.LogEntry;
 
 public class LogAnalyzerUtils {
 
