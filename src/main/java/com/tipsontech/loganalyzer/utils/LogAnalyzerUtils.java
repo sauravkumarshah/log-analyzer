@@ -37,6 +37,16 @@ public class LogAnalyzerUtils {
 		System.out.println(errorMessage);
 	}
 
+	public static void raiseIssueByException(Exception ex, String assignedTo) {
+		System.out.println(ex);
+		System.out.println(assignedTo);
+	}
+
+	public static void raiseIssueByExceptionMessage(String errorMessage, String assignedTo) {
+		System.out.println(errorMessage);
+		System.out.println(assignedTo);
+	}
+
 	private static LogEntry parseLogEntry(String logLine, BufferedReader reader) throws IOException {
 		String regex = "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3}) \\[(\\w+)] (\\w+) (.+?) - (.+)$";
 		Pattern pattern = Pattern.compile(regex);
