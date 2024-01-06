@@ -15,7 +15,7 @@ public class LogAnalyzerUtils {
 
 	private static final Logger LOGGER = Logger.getLogger(LogAnalyzerUtils.class.getName());
 
-	public static void analyzeLogs(String logFilePath) {
+	public static void analyzeLogsFromFile(String logFilePath) {
 		try (BufferedReader reader = new BufferedReader(new FileReader(logFilePath))) {
 			String line;
 			while ((line = reader.readLine()) != null) {
