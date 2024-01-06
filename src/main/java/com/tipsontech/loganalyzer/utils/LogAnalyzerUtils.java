@@ -28,12 +28,13 @@ public class LogAnalyzerUtils {
 			LOGGER.log(Level.SEVERE, "Error reading log file", e);
 		}
 	}
-	
-	public static void raiseIssueByStackTrace(Exception ex) {
-		System.out.println(ex.getMessage());
-		System.out.println(ex.getCause());
-		System.out.println(ex.getClass());
-		System.out.println(ex.getStackTrace());
+
+	public static void raiseIssueByException(Exception ex) {
+		System.out.println(ex);
+	}
+
+	public static void raiseIssueByExceptionMessage(String errorMessage) {
+		System.out.println(errorMessage);
 	}
 
 	private static LogEntry parseLogEntry(String logLine, BufferedReader reader) throws IOException {
