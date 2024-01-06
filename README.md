@@ -1,7 +1,3 @@
-Certainly! Here's a sample README file for your log analyzer Java code:
-
----
-
 # Log Analyzer
 
 The Log Analyzer is a Java application designed to parse and analyze log entries from various sources, including Kubernetes, Docker, Azure App Services, VMs, and Elasticsearch. It is equipped to identify and extract relevant information such as timestamps, log levels, thread names, logger names, messages, and stack traces.
@@ -69,4 +65,3 @@ If you prefer running the application in a Docker container, you can build the D
    ```bash
    docker run log-analyzer
    ```
----
